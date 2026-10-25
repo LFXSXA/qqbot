@@ -1,0 +1,5 @@
+name: astrbot_plugin_context
+desc: 上下文聚合器——统一拼装情绪状态、记忆、视频、时间，避免多插件各自注入打架
+author: local
+version: 1.0.0
+repo: ""
