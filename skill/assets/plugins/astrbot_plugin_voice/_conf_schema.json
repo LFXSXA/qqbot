@@ -1,0 +1,37 @@
+{
+  "enabled": {
+    "description": "开启语音",
+    "type": "bool",
+    "default": true
+  },
+  "auto_chance": {
+    "description": "普通回复里转语音的概率",
+    "type": "float",
+    "default": 0.2,
+    "slider": { "min": 0.0, "max": 1.0, "step": 0.05 },
+    "hint": "0=只在他要的时候发；0.2=五条里一条是语音"
+  },
+  "voice": {
+    "description": "音色",
+    "type": "string",
+    "default": "zh-CN-XiaoyiNeural",
+    "hint": "可选：zh-CN-XiaoxiaoNeural（温柔）/ zh-CN-XiaoyiNeural（年轻）/ zh-CN-liaoning-XiaobeiNeural（东北）"
+  },
+  "rate": {
+    "description": "语速",
+    "type": "string",
+    "default": "+8%",
+    "hint": "比如 +8%（快一点）、-5%（慢一点）"
+  },
+  "max_chars": {
+    "description": "超过多少字就不转语音",
+    "type": "int",
+    "default": 60,
+    "slider": { "min": 10, "max": 200, "step": 10 }
+  },
+  "keep_text": {
+    "description": "语音之外再发一遍文字",
+    "type": "bool",
+    "default": false
+  }
+}
