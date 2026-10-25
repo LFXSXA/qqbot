@@ -1,0 +1,5 @@
+name: astrbot_plugin_sticker_out
+desc: 让机器人能在回复里发表情：QQ 内置表情（[face:偷笑]）和本地表情包（[sticker:无语]）
+author: local
+version: 1.0.0
+repo: ""
