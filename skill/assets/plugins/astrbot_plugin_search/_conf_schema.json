@@ -1,0 +1,24 @@
+{
+  "enabled": {
+    "description": "遇到需要查资料的问题时自动搜索",
+    "type": "bool",
+    "default": true
+  },
+  "max_results": {
+    "description": "注入几条搜索结果",
+    "type": "int",
+    "default": 4,
+    "slider": { "min": 1, "max": 6, "step": 1 }
+  },
+  "min_len": {
+    "description": "最短触发长度（字）",
+    "type": "int",
+    "default": 6,
+    "slider": { "min": 4, "max": 20, "step": 1 }
+  },
+  "quiet_ok": {
+    "description": "拿不到结果时也不要提「我查了一下」",
+    "type": "bool",
+    "default": true
+  }
+}
