@@ -1,0 +1,5 @@
+name: astrbot_plugin_speak_up
+desc: 主动搭话——没人跟她说话时，她也会自己先开口（本地掷骰子，掷中才花模型）
+author: local (ported from Yuuyuko-uu/dsh-speak-up)
+version: 1.0.0
+repo: ""
