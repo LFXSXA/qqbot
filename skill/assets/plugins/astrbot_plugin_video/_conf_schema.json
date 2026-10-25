@@ -1,0 +1,25 @@
+{
+  "enabled": {
+    "description": "允许发表情/发视频（关闭后只回文字）",
+    "type": "bool",
+    "default": true
+  },
+  "max_mb": {
+    "description": "直接发送的最大体积（MB）",
+    "type": "int",
+    "default": 40,
+    "slider": { "min": 5, "max": 100, "step": 5 },
+    "hint": "超过这个大小就截取片段再发"
+  },
+  "clip_seconds": {
+    "description": "太长时截取多少秒",
+    "type": "int",
+    "default": 45,
+    "slider": { "min": 10, "max": 180, "step": 5 }
+  },
+  "auto_detect": {
+    "description": "不用命令，看到链接+「发我/看看」就自动发",
+    "type": "bool",
+    "default": true
+  }
+}
