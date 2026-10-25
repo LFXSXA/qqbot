@@ -1,0 +1,5 @@
+name: astrbot_plugin_search
+desc: 遇到需要查资料的问题时自动联网搜索，再用她自己的方式给建议（不念资料）
+author: local
+version: 1.0.0
+repo: ""
