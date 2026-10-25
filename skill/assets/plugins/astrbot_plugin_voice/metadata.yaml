@@ -1,0 +1,5 @@
+name: astrbot_plugin_voice
+desc: 让她说话——把回复转成语音发出去（edge-tts，可调音色和概率）
+author: local
+version: 1.0.0
+repo: ""
