@@ -1,0 +1,5 @@
+name: astrbot_plugin_her_state
+desc: 她自己的情绪和状态——心情、精力、今天发生的事，会主动说出来，不花钱
+author: local
+version: 1.0.0
+repo: ""
