@@ -1,0 +1,5 @@
+name: astrbot_plugin_bili
+desc: 刷B站——她会自己去看热门、搜视频、读简介，然后用自己的口吻跟你聊
+author: local (ported from Yuuyuko-uu/dsh-bili-subagent)
+version: 1.0.0
+repo: ""
