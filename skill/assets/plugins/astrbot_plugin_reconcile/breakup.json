@@ -1,0 +1,25 @@
+{
+  "_说明": "两处「关门」时刻。transcript 原话；repair_hint 如果重来该怎么做；banned 禁止出现的回避词。",
+  "scenes": [
+    {
+      "id": "example",
+      "when": "<日期>",
+      "title": "<那一刻>",
+      "transcript": [
+        {
+          "who": "你",
+          "text": "<他说的话>"
+        },
+        {
+          "who": "她",
+          "text": "<她说的>"
+        }
+      ],
+      "real": "<她当时的回应>",
+      "banned": [
+        "<回避词>"
+      ],
+      "repair_hint": "<如果重来该怎么做，写出必须做到的两点>"
+    }
+  ]
+}
