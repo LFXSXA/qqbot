@@ -1,0 +1,104 @@
+{
+  "auto_prob": {
+    "description": "配表情的概率（0~1）",
+    "type": "float",
+    "default": 0.7,
+    "slider": {
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    },
+    "hint": "0.7 表示七成消息会带表情，剩下三成纯文字（更像真人）"
+  },
+  "image_ratio": {
+    "description": "表情包里发图片的比例（0~1）",
+    "type": "float",
+    "default": 0.75,
+    "slider": {
+      "min": 0,
+      "max": 1,
+      "step": 0.05
+    },
+    "hint": "剩下的发 QQ 原生表情（偷笑、白眼这类）"
+  },
+  "online_enabled": {
+    "description": "允许它自己上网补表情包",
+    "type": "bool",
+    "default": true,
+    "hint": "关掉后只用本地已有的 88 张"
+  },
+  "search_interval_min": {
+    "description": "补货检查间隔（分钟）",
+    "type": "int",
+    "default": 45,
+    "slider": {
+      "min": 10,
+      "max": 360,
+      "step": 5
+    }
+  },
+  "min_pool_size": {
+    "description": "某个情绪少于几张就补货",
+    "type": "int",
+    "default": 5,
+    "slider": {
+      "min": 1,
+      "max": 30,
+      "step": 1
+    }
+  },
+  "max_new_per_round": {
+    "description": "每次补货最多下载几张",
+    "type": "int",
+    "default": 6,
+    "slider": {
+      "min": 1,
+      "max": 20,
+      "step": 1
+    }
+  },
+  "repeat_cooldown_hours": {
+    "description": "同一张图多久内不重复发（小时）",
+    "type": "int",
+    "default": 6,
+    "slider": {
+      "min": 0,
+      "max": 72,
+      "step": 1
+    }
+  },
+  "emotion_rules": {
+    "description": "情绪识别规则（每行一条，格式：情绪: 关键词1,关键词2）",
+    "type": "text",
+    "default": "笑死: 哈哈,笑死,好笑,好玩,逗,嘿嘿,233\n撒娇: 撒娇,要亲亲,要抱抱,贴贴,么么,mua\n亲亲: 亲亲,亲你,亲我\n抱抱: 抱抱,抱一下,抱我\n想你: 想你,想我,好想你,想我没\n开心: 开心,高兴,太好了,好棒,真好\n难过: 难过,不开心,伤心,难受,想哭,呜呜\n生气: 哼,生气,讨厌,气死,烦,不理你\n委屈: 委屈,可怜,冤枉,欺负\n无语: 无语,离谱,服了,算了,真是,害\n晚安: 晚安,睡觉,困,熬夜,累了\n馋: 吃,馋,饿,饭,外卖,好吃\n得意: 厉害,牛,强,棒,赞,赢了\n加油: 加油,冲,干巴爹,努力\n震惊: 怕,吓,天啊,居然,竟然\n疑惑: 为什么,?,？,吗,怎么,啥\n害羞: 害羞,脸红,宝,爱,喜欢",
+    "hint": "左边是表情包的情绪名，右边是触发它的关键词。想加新情绪就在这加一行，并在下面补一条搜索词"
+  },
+  "search_words": {
+    "description": "联网补货用的搜索词（每行：情绪: 搜索词）",
+    "type": "text",
+    "default": "笑死: 搞笑 表情包 动图\n撒娇: 撒娇 表情包 动图\n亲亲: 亲亲 表情包\n抱抱: 抱抱 表情包\n想你: 想你 表情包\n开心: 开心 表情包 动图\n难过: 难过 表情包\n生气: 生气 表情包\n委屈: 委屈 表情包\n无语: 无语 表情包\n晚安: 晚安 表情包\n馋: 馋 好吃 表情包\n得意: 得意 表情包\n加油: 加油 表情包\n震惊: 震惊 表情包\n疑惑: 疑问 表情包\n害羞: 害羞 表情包",
+    "hint": "只在某个情绪库存不足时才会用它去搜"
+  },
+  "gif_ratio": {
+    "description": "有动图时优先发动图的比例",
+    "type": "float",
+    "default": 0.6,
+    "slider": {
+      "min": 0.0,
+      "max": 1.0,
+      "step": 0.05
+    },
+    "hint": "0=完全不用动图，1=有动图就一定发动图"
+  },
+  "sticker_cooldown_s": {
+    "description": "两次表情之间的最小间隔（秒）",
+    "type": "int",
+    "default": 90,
+    "slider": {
+      "min": 0,
+      "max": 600,
+      "step": 30
+    },
+    "hint": "防止每句都配图"
+  }
+}
