@@ -1,0 +1,26 @@
+{
+  "extract_every": {
+    "description": "每几轮对话提取一次记忆",
+    "type": "int",
+    "default": 3,
+    "slider": { "min": 1, "max": 20, "step": 1 },
+    "hint": "每 N 轮多一次小模型调用；调大更省钱，调小记得更及时"
+  },
+  "max_facts": {
+    "description": "最多保存多少条记忆",
+    "type": "int",
+    "default": 120,
+    "slider": { "min": 20, "max": 500, "step": 10 }
+  },
+  "inject_count": {
+    "description": "每次最多注入几条记忆给模型",
+    "type": "int",
+    "default": 6,
+    "slider": { "min": 0, "max": 15, "step": 1 }
+  },
+  "enabled": {
+    "description": "开启长期记忆",
+    "type": "bool",
+    "default": true
+  }
+}
