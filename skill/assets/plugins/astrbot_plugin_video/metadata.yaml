@@ -1,0 +1,5 @@
+name: astrbot_plugin_video
+desc: 发个链接就下载并发送视频（B站 / 直链 mp4），太长会截取片段
+author: local
+version: 1.0.0
+repo: ""
