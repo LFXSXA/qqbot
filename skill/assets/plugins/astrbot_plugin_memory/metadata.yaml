@@ -1,0 +1,5 @@
+name: astrbot_plugin_memory
+desc: 长期记忆——记住他说过的承诺、待办、偏好，之后能提醒他
+author: local
+version: 1.0.0
+repo: ""
