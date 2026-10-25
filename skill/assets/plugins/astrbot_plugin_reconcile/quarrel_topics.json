@@ -1,0 +1,16 @@
+{
+  "_说明": "吵架由头：core 是她真正在意的东西；opener/follow/pressure 三句质问；real 真实反应。",
+  "topics": [
+    {
+      "id": "example_1",
+      "weight": 5,
+      "subject": "<他做过的某件事>",
+      "core": "<她真正在意的不是表面这件事，而是……>",
+      "opener": "<第一句质问>",
+      "follow": "<第二句加压>",
+      "pressure": "<第三句戳到点子上>",
+      "real": "<她当时真实说过的话>",
+      "when": "<日期>"
+    }
+  ]
+}
