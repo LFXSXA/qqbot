@@ -1,0 +1,22 @@
+{
+ "_说明": "复制到 data/plugins/astrbot_plugin_speak_up/config.json，把 target_user 改成你的 QQ",
+ "enable": true,
+ "dry_run": false,
+ "target_user": "",
+ "interval_min": 20,
+ "cooldown_min": 15,
+ "hit_peak": 35,
+ "hit_off": 45,
+ "miss_bonus": 8,
+ "miss_bonus_cap": 25,
+ "active_gap_min": 15,
+ "recent_min": 20,
+ "recent_factor": 0.1,
+ "cold_min": 240,
+ "cold_factor": 1.6,
+ "bili_chance": 0.2,
+ "quiet_start": 1,
+ "quiet_end": 7,
+ "morning_greet": true,
+ "morning_time": "08:00"
+}
