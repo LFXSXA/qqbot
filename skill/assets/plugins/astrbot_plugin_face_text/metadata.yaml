@@ -1,0 +1,5 @@
+name: astrbot_plugin_face_text
+desc: 把 QQ 原生表情的编号（如 [表情:317]）翻译成可读名称（如 [表情:菜汪]），让模型看得懂
+author: local
+version: 1.0.0
+repo: ""
